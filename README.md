@@ -13,28 +13,35 @@ To set up a React JS, follow these steps:
 2. *Create a React App:* Use Create React App, a tool that sets up a new React project with a simple command.
 
 
-## Step-by-Step Installation for React.js
+### Step-by-Step Installation
 
-Follow these steps to install and set up a React.js project easily:
-
-1. *Install Node.js and npm*  
-   React requires Node.js and npm (Node Package Manager). To install them:
-   - Go to the [Node.js official website](https://nodejs.org/) and download the latest stable version.
-   - Run the installer and follow the setup instructions.
-   - To verify the installation, open a terminal and run:
+1. *Install Node.js and NPM*
+   - Download and install Node.js from [Node.js website](https://nodejs.org/).
+   - Verify installation by running:
      
 node -v
 npm -v
     Make sure to check the version numbers of Node and npm, confirming they’re installed.
+   
+2. *Create a New React Application*
+   - Open your terminal and run the following command:
+     
+npx create-react-app my-custom-react-app
+   - This command creates a new React project named my-custom-react-app, installs all necessary dependencies, and sets up the project structure.
 
-2. *Create a New React Application*  
-   Using Create React App is the easiest way to set up a React project. In your terminal, navigate to the folder where you want your project to be created and run:
-   ```bash
-   npx create-react-app my-app
+3. *Navigate to Your Project Directory*
+   - Once the setup completes, navigate into your project directory:
+     
+cd my-custom-react-app
 
-3. *Navigate to Project Directory and Start the Development Server* 
-  ```bash
-   cd my-custom-react-app
+4. *Start the Development Server*
+   - Now, start the development server by running:
+     
+npm start
+   - This will open your new React app in your default web browser at http://localhost:3000.
+
+   > *Tip*: To stop the development server, press Ctrl + C in the terminal where the server is running.
+
 
 ## Purpose of React JS
 
