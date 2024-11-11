@@ -18,26 +18,32 @@ To set up a React JS, follow these steps:
 1. *Install Node.js and NPM*
    - Download and install Node.js from [Node.js website](https://nodejs.org/).
    - Verify installation by running:
-     
-node -v
-npm -v
-    Make sure to check the version numbers of Node and npm, confirming they’re installed.
+     ```bash
+     node -v
+     npm -v
+     ```
+
+   - Make sure to check the version numbers of Node and npm, confirming they’re installed.
    
 2. *Create a New React Application*
    - Open your terminal and run the following command:
-     
-npx create-react-app my-custom-react-app
+     ```bash
+     npx create-react-app my-custom-react-app
+     ```
+
    - This command creates a new React project named my-custom-react-app, installs all necessary dependencies, and sets up the project structure.
 
 3. *Navigate to Your Project Directory*
    - Once the setup completes, navigate into your project directory:
-     
-cd my-custom-react-app
+    ```bash
+    cd my-custom-react-app 
 
 4. *Start the Development Server*
    - Now, start the development server by running:
-     
-npm start
+     ```bash 
+     npm start
+     ```
+
    - This will open your new React app in your default web browser at http://localhost:3000.
 
    > *Tip*: To stop the development server, press Ctrl + C in the terminal where the server is running.
