@@ -35,8 +35,9 @@ To set up a React JS, follow these steps:
 
 3. *Navigate to Your Project Directory*
    - Once the setup completes, navigate into your project directory:
-    ```bash
-    cd my-custom-react-app 
+     ```bash
+     cd my-custom-react-app 
+     ```
 
 4. *Start the Development Server*
    - Now, start the development server by running:
